@@ -15,39 +15,32 @@
 
 ## Sobre
 
-Executivo de tecnologia (C-Level) com atuação de ponta a ponta: definição de estratégia técnica,
-arquitetura de plataformas escaláveis, formação e liderança de times de alta performance, e
-entrega de produtos digitais que geram valor mensurável de negócio. Transito com fluência entre a
-mesa de decisão (roadmap, budget, risco, parcerias) e o código (arquitetura de referência, revisão
-técnica, prova de conceito).
+Executivo de tecnologia (C-Level) com atuação de ponta a ponta: definição de estratégia técnica, arquitetura de plataformas escaláveis, formação e liderança de times de alta performance, e entrega de produtos digitais que geram valor mensurável de negócio. Transito com fluência entre a mesa de decisão (roadmap, budget, risco, parcerias) e o código (arquitetura de referência, revisão técnica, prova de conceito).
 
 - **Liderança executiva:** estratégia de engenharia, OKRs, budgeting, gestão de risco, M&A técnico e due diligence.
 - **Engenharia:** arquitetura distribuída, event-driven, plataformas internas (IDP) e métricas DORA.
 - **IA aplicada:** RAG, agentes, MCP, RPA inteligente, IA corporativa self-hosted e governança de modelos.
 - **DevSecOps & Plataforma:** GitOps, IaC, políticas como código e segurança no ciclo de vida.
 
----
-
 ## Stack principal
 
-```
-Linguagens   TypeScript · JavaScript/Node · Python · Java · C# / .NET · C · Go · Dart · Solidity
-Backend      NestJS · Express/Node · Spring · FastAPI · ASP.NET Core
-Frontend     React · Next.js · Angular · Tailwind
-Mobile       Flutter · React Native · Expo
-Dados/ETL    PostgreSQL · Kafka · Snowflake · Databricks · dbt · DuckDB · Airbyte
-IA & RPA     RAG · Agentes · LangChain · LlamaIndex · Ollama/vLLM · automação RPA + LLM
-Infra        Docker · Kubernetes · Terraform · GitHub Actions · Argo CD
-```
-
----
+| | |
+|---|---|
+| **Linguagens** | TypeScript · JavaScript/Node · Python · Java · C# / .NET · C · Go · Dart · Solidity |
+| **Backend** | NestJS · Express/Node · Spring · FastAPI · ASP.NET Core |
+| **Frontend** | React · Next.js · Angular · Tailwind |
+| **Mobile** | Flutter · React Native · Expo |
+| **Dados/ETL** | PostgreSQL · Kafka · Snowflake · Databricks · dbt · DuckDB · Airbyte |
+| **IA & RPA** | RAG · Agentes · LangChain · LlamaIndex · Ollama/vLLM · automação RPA + LLM |
+| **Infra** | Docker · Kubernetes · Terraform · GitHub Actions · Argo CD |
 
 ## Projetos em destaque
 
 | Projeto | Descrição | Stack |
-| --- | --- | --- |
+|---|---|---|
 | [payments-api-dotnet](https://github.com/bruno1186/payments-api-dotnet) | API de pagamentos (autoriza/captura/estorna) com idempotência e testes | .NET 8 / C# |
 | [data-lakehouse-etl](https://github.com/bruno1186/data-lakehouse-etl) | Pipeline ETL bronze/silver/gold portável p/ Snowflake e Databricks | Python / DuckDB |
+| [engineering-metrics-dora](https://github.com/bruno1186/engineering-metrics-dora) | Calculadora de métricas DORA com classificação Elite/High/Medium/Low | Python |
 | [rpa-ai-automation](https://github.com/bruno1186/rpa-ai-automation) | Orquestrador RPA (retry/idempotência) + triagem por IA plugável | Python / IA |
 | [retail-dashboard-angular](https://github.com/bruno1186/retail-dashboard-angular) | Dashboard de varejo com KPIs reativos e testes headless | Angular / RxJS |
 | [mobility-app-flutter](https://github.com/bruno1186/mobility-app-flutter) | App de mobilidade com tarifa dinâmica, unit + widget tests | Flutter / Dart |
@@ -57,47 +50,66 @@ Infra        Docker · Kubernetes · Terraform · GitHub Actions · Argo CD
 | [java-task-api](https://github.com/bruno1186/java-task-api) | API de tarefas em Java puro (sem framework), JUnit e CI | Java |
 | [backend-api](https://github.com/bruno1186/backend-api) | API REST com Swagger e caminho produtivo Prisma | NestJS |
 | [devsecops-toolkit](https://github.com/bruno1186/devsecops-toolkit) | Pipelines de segurança, IaC e políticas como código | Terraform |
+| [software-engineering-playbook](https://github.com/bruno1186/software-engineering-playbook) | Playbook de liderança técnica: arquitetura, pessoas, projetos, ADRs | Docs |
 | [url-shortener](https://github.com/bruno1186/url-shortener) | Encurtador de URLs com testes e CI verde | Go |
 
-> Todos os projetos possuem **CI verde** (build/testes automatizados via GitHub Actions).
-
----
+> Todos os projetos possuem CI verde (build/testes automatizados via GitHub Actions).
 
 ## Radar de tecnologia — Stack de referência de um VP de Tecnologia & IA
 
 Curadoria dos projetos open source que uso como referência de arquitetura e acompanho de perto.
 
-### IA Generativa & Agentes
-[OpenAI Cookbook](https://github.com/openai/openai-cookbook) · [LangChain](https://github.com/langchain-ai/langchain) · [LlamaIndex](https://github.com/run-llama/llama_index) · [AutoGen](https://github.com/microsoft/autogen) · [CrewAI](https://github.com/crewAIInc/crewAI) · [Open WebUI](https://github.com/open-webui/open-webui) · [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+**IA Generativa & Agentes**
+OpenAI Cookbook · LangChain · LlamaIndex · AutoGen · CrewAI · Open WebUI · AnythingLLM
 
-### IA Corporativa (self-hosted / inferência)
-[Ollama](https://github.com/ollama/ollama) · [vLLM](https://github.com/vllm-project/vllm) · [LiteLLM](https://github.com/BerriAI/litellm) · [Haystack](https://github.com/deepset-ai/haystack) · [Dify](https://github.com/langgenius/dify)
+**IA Corporativa (self-hosted / inferência)**
+Ollama · vLLM · LiteLLM · Haystack · Dify
 
-### RPA & Automação Inteligente
-[Robocorp](https://github.com/robocorp/robocorp) · [TagUI](https://github.com/aisingapore/TagUI) · [n8n](https://github.com/n8n-io/n8n) · [Playwright](https://github.com/microsoft/playwright) · [Apache Airflow](https://github.com/apache/airflow)
+**RPA & Automação Inteligente**
+Robocorp · TagUI · n8n · Playwright · Apache Airflow
 
-### Engenharia de Software & Plataforma
-[Backstage](https://github.com/backstage/backstage) · [OpenTelemetry](https://github.com/open-telemetry) · [SonarQube](https://github.com/SonarSource/sonarqube) · [Dependency-Track](https://github.com/DependencyTrack/dependency-track) · [Apache APISIX](https://github.com/apache/apisix)
+**Engenharia de Software & Plataforma**
+Backstage · OpenTelemetry · SonarQube · Dependency-Track · Apache APISIX
 
-### DevOps & GitOps
-[Argo CD](https://github.com/argoproj/argo-cd) · [FluxCD](https://github.com/fluxcd/flux2) · [Tekton](https://github.com/tektoncd/pipeline) · [Crossplane](https://github.com/crossplane/crossplane) · [Kubernetes](https://github.com/kubernetes/kubernetes) · [Helm](https://github.com/helm/helm)
+**DevOps & GitOps**
+Argo CD · FluxCD · Tekton · Crossplane · Kubernetes · Helm
 
-### Observabilidade
-[Grafana](https://github.com/grafana/grafana) · [Prometheus](https://github.com/prometheus/prometheus) · [Jaeger](https://github.com/jaegertracing/jaeger) · [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) · [Loki](https://github.com/grafana/loki)
+**Observabilidade**
+Grafana · Prometheus · Jaeger · VictoriaMetrics · Loki
 
-### Arquitetura de Dados & Analytics
-[Apache Kafka](https://github.com/apache/kafka) · [Apache Flink](https://github.com/apache/flink) · [Airbyte](https://github.com/airbytehq/airbyte) · [dbt](https://github.com/dbt-labs/dbt-core) · [DuckDB](https://github.com/duckdb/duckdb) · [Delta Lake (Databricks)](https://github.com/delta-io/delta) · [Snowflake Connector](https://github.com/snowflakedb/snowflake-connector-python)
+**Arquitetura de Dados & Analytics**
+Apache Kafka · Apache Flink · Airbyte · dbt · DuckDB · Delta Lake (Databricks) · Snowflake Connector
 
-### Segurança & DevSecOps
-[OWASP Cheat Sheets](https://github.com/OWASP/CheatSheetSeries) · [Trivy](https://github.com/aquasecurity/trivy) · [Falco](https://github.com/falcosecurity/falco) · [Keycloak](https://github.com/keycloak/keycloak) · [HashiCorp Vault](https://github.com/hashicorp/vault)
+**Segurança & DevSecOps**
+OWASP Cheat Sheets · Trivy · Falco · Keycloak · HashiCorp Vault
 
-### Arquitetura Moderna
-[Temporal](https://github.com/temporalio/temporal) · [NATS](https://github.com/nats-io/nats-server) · [OpenFeature](https://github.com/open-feature) · [OpenFGA](https://github.com/openfga/openfga) · [PocketBase](https://github.com/pocketbase/pocketbase)
+**Arquitetura Moderna**
+Temporal · NATS · OpenFeature · OpenFGA · PocketBase
 
-### Must Follow 2026
+## Referências para times de alta performance
+
+Curadoria de repositórios de referência que uso para formar critério técnico e de liderança em engenharia, dados, IA, integração/automação, segurança e gestão de pessoas e projetos em tecnologia.
+
+| Tema | Repositório | Por que importa |
+|---|---|---|
+| Arquitetura & System Design | [system-design-primer](https://github.com/donnemartin/system-design-primer) | Referência clássica para design de sistemas em escala |
+| Arquitetura & System Design | [awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) | Curadoria de padrões (DDD, clean architecture, event-driven) |
+| Arquitetura & System Design | [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | Estudos de caso reais de sistemas de grande escala |
+| Formação técnica | [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | Trilhas de aprendizado para times de engenharia |
+| IA & LLMs | [langchain](https://github.com/langchain-ai/langchain) | Framework de referência para agentes e apps com LLM |
+| IA & LLMs | [transformers](https://github.com/huggingface/transformers) | Base de modelos de ML para texto, visão e áudio |
+| IA & LLMs | [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | Formação estruturada em IA generativa para times |
+| Automação & Integração | [n8n](https://github.com/n8n-io/n8n) | Plataforma de automação de workflows e agentes de IA |
+| Dados & Analytics Engineering | [dbt-core](https://github.com/dbt-labs/dbt-core) | Padrão de mercado para transformação de dados como código |
+| Dados & Analytics Engineering | [airflow](https://github.com/apache/airflow) | Orquestração de pipelines de dados |
+| DevSecOps | [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) | Referência de boas práticas de segurança de aplicações |
+| Liderança & CTO | [awesome-cto](https://github.com/kuchin/awesome-cto) | Curadoria de recursos para CTOs e VPs de Engenharia |
+| Gestão de pessoas & carreira | [engineeringladders](https://github.com/jorgef/engineeringladders) | Framework de trilhas de carreira em engenharia |
+
+## Must Follow 2026
 
 | Categoria | Projeto | Valor para liderança |
-| --- | --- | --- |
+|---|---|---|
 | IA | OpenAI Cookbook | Arquiteturas e boas práticas de LLMs |
 | IA | LangChain | Agentes e aplicações corporativas |
 | IA | LlamaIndex | Gestão de conhecimento e RAG |
@@ -111,18 +123,13 @@ Curadoria dos projetos open source que uso como referência de arquitetura e aco
 | Infra | Kubernetes | Orquestração de contêineres |
 | Arquitetura | Temporal | Workflows duráveis e resilientes |
 
----
-
 ## Mídia & Referências
 
-- 📰 [O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/) — artigo autoral na **Medicina S/A** sobre agent washing, governança e IA que realmente age na operação (2026).
-- 📰 [Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/) — matéria na **Medicina S/A** (Edição 34) sobre agentes de IA e prontuário eletrônico.
-- ✍️ [O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/) — artigo autoral na **Saúde Digital News** sobre dívida de contexto, interoperabilidade e governança de dados (2026).
-- 🎙️ [Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U) — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
-
----
-
+- 📰 [O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/) — artigo autoral na Medicina S/A sobre agent washing, governança e IA que realmente age na operação (2026).
+- 📰 [Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/) — matéria na Medicina S/A (Edição 34) sobre agentes de IA e prontuário eletrônico.
+- ✉️ [O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/) — artigo autoral na Saúde Digital News sobre dívida de contexto, interoperabilidade e governança de dados (2026).
+- 🎤️ [Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U) — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bruno1186&show_icons=true&theme=tokyonight&hide_border=true" alt="Estatísticas GitHub" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bruno1186&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=bruno1186&show_icons=true&theme=dark&count_private=true" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bruno1186&layout=compact&theme=dark" alt="Top languages"/>
 </p>
