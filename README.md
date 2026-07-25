@@ -23,7 +23,7 @@ técnica, prova de conceito).
 
 - **Liderança executiva:** estratégia de engenharia, OKRs, budgeting, gestão de risco, M&A técnico e due diligence.
 - **Engenharia:** arquitetura distribuída, event-driven, plataformas internas (IDP) e métricas DORA.
-- **IA aplicada:** RAG, agentes, MCP, IA corporativa self-hosted e governança de modelos.
+- **IA aplicada:** RAG, agentes, MCP, RPA inteligente, IA corporativa self-hosted e governança de modelos.
 - **DevSecOps & Plataforma:** GitOps, IaC, políticas como código e segurança no ciclo de vida.
 
 ---
@@ -31,11 +31,12 @@ técnica, prova de conceito).
 ## Stack principal
 
 ```
-Linguagens   TypeScript · Go · Java · Python · Solidity
-Backend      NestJS · Express · Spring · FastAPI
-Frontend     React · Next.js · Tailwind
-Mobile       React Native · Expo
-Dados/IA     PostgreSQL · Kafka · Qdrant · LangChain · LlamaIndex
+Linguagens   TypeScript · JavaScript/Node · Python · Java · C# / .NET · C · Go · Dart · Solidity
+Backend      NestJS · Express/Node · Spring · FastAPI · ASP.NET Core
+Frontend     React · Next.js · Angular · Tailwind
+Mobile       Flutter · React Native · Expo
+Dados/ETL    PostgreSQL · Kafka · Snowflake · Databricks · dbt · DuckDB · Airbyte
+IA & RPA     RAG · Agentes · LangChain · LlamaIndex · Ollama/vLLM · automação RPA + LLM
 Infra        Docker · Kubernetes · Terraform · GitHub Actions · Argo CD
 ```
 
@@ -45,12 +46,20 @@ Infra        Docker · Kubernetes · Terraform · GitHub Actions · Argo CD
 
 | Projeto | Descrição | Stack |
 | --- | --- | --- |
-| **[url-shortener](https://github.com/bruno1186/url-shortener)** | Serviço de encurtamento de URLs com testes e CI verde | Go |
-| **[java-task-api](https://github.com/bruno1186/java-task-api)** | API de tarefas em Java puro (sem framework), testes JUnit e CI | Java |
-| **[ai-rag-platform](https://github.com/bruno1186/ai-rag-platform)** | Plataforma RAG com modo demo executável sem credenciais | Python/FastAPI |
-| **[crypto-web3](https://github.com/bruno1186/crypto-web3)** | Smart contracts com Hardhat, testes e boas práticas de segurança | Solidity |
-| **[backend-api](https://github.com/bruno1186/backend-api)** | API REST com Swagger e caminho produtivo Prisma | NestJS |
-| **[devsecops-toolkit](https://github.com/bruno1186/devsecops-toolkit)** | Pipelines de segurança, IaC e políticas como código | Terraform |
+| [payments-api-dotnet](https://github.com/bruno1186/payments-api-dotnet) | API de pagamentos (autoriza/captura/estorna) com idempotência e testes | .NET 8 / C# |
+| [data-lakehouse-etl](https://github.com/bruno1186/data-lakehouse-etl) | Pipeline ETL bronze/silver/gold portável p/ Snowflake e Databricks | Python / DuckDB |
+| [rpa-ai-automation](https://github.com/bruno1186/rpa-ai-automation) | Orquestrador RPA (retry/idempotência) + triagem por IA plugável | Python / IA |
+| [retail-dashboard-angular](https://github.com/bruno1186/retail-dashboard-angular) | Dashboard de varejo com KPIs reativos e testes headless | Angular / RxJS |
+| [mobility-app-flutter](https://github.com/bruno1186/mobility-app-flutter) | App de mobilidade com tarifa dinâmica, unit + widget tests | Flutter / Dart |
+| [ringbuffer-c](https://github.com/bruno1186/ringbuffer-c) | Ring buffer C11 p/ streaming de eventos (gcc/clang, ASan) | C |
+| [ai-rag-platform](https://github.com/bruno1186/ai-rag-platform) | Plataforma RAG com modo demo executável sem credenciais | Python / FastAPI |
+| [crypto-web3](https://github.com/bruno1186/crypto-web3) | Smart contracts + dApp (Hardhat, ethers.js, testes) | Solidity / React |
+| [java-task-api](https://github.com/bruno1186/java-task-api) | API de tarefas em Java puro (sem framework), JUnit e CI | Java |
+| [backend-api](https://github.com/bruno1186/backend-api) | API REST com Swagger e caminho produtivo Prisma | NestJS |
+| [devsecops-toolkit](https://github.com/bruno1186/devsecops-toolkit) | Pipelines de segurança, IaC e políticas como código | Terraform |
+| [url-shortener](https://github.com/bruno1186/url-shortener) | Encurtador de URLs com testes e CI verde | Go |
+
+> Todos os projetos possuem **CI verde** (build/testes automatizados via GitHub Actions).
 
 ---
 
@@ -64,6 +73,9 @@ Curadoria dos projetos open source que uso como referência de arquitetura e aco
 ### IA Corporativa (self-hosted / inferência)
 [Ollama](https://github.com/ollama/ollama) · [vLLM](https://github.com/vllm-project/vllm) · [LiteLLM](https://github.com/BerriAI/litellm) · [Haystack](https://github.com/deepset-ai/haystack) · [Dify](https://github.com/langgenius/dify)
 
+### RPA & Automação Inteligente
+[Robocorp](https://github.com/robocorp/robocorp) · [TagUI](https://github.com/aisingapore/TagUI) · [n8n](https://github.com/n8n-io/n8n) · [Playwright](https://github.com/microsoft/playwright) · [Apache Airflow](https://github.com/apache/airflow)
+
 ### Engenharia de Software & Plataforma
 [Backstage](https://github.com/backstage/backstage) · [OpenTelemetry](https://github.com/open-telemetry) · [SonarQube](https://github.com/SonarSource/sonarqube) · [Dependency-Track](https://github.com/DependencyTrack/dependency-track) · [Apache APISIX](https://github.com/apache/apisix)
 
@@ -73,8 +85,8 @@ Curadoria dos projetos open source que uso como referência de arquitetura e aco
 ### Observabilidade
 [Grafana](https://github.com/grafana/grafana) · [Prometheus](https://github.com/prometheus/prometheus) · [Jaeger](https://github.com/jaegertracing/jaeger) · [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) · [Loki](https://github.com/grafana/loki)
 
-### Arquitetura de Dados
-[Apache Kafka](https://github.com/apache/kafka) · [Apache Flink](https://github.com/apache/flink) · [Airbyte](https://github.com/airbytehq/airbyte) · [dbt](https://github.com/dbt-labs/dbt-core) · [DuckDB](https://github.com/duckdb/duckdb)
+### Arquitetura de Dados & Analytics
+[Apache Kafka](https://github.com/apache/kafka) · [Apache Flink](https://github.com/apache/flink) · [Airbyte](https://github.com/airbytehq/airbyte) · [dbt](https://github.com/dbt-labs/dbt-core) · [DuckDB](https://github.com/duckdb/duckdb) · [Delta Lake (Databricks)](https://github.com/delta-io/delta) · [Snowflake Connector](https://github.com/snowflakedb/snowflake-connector-python)
 
 ### Segurança & DevSecOps
 [OWASP Cheat Sheets](https://github.com/OWASP/CheatSheetSeries) · [Trivy](https://github.com/aquasecurity/trivy) · [Falco](https://github.com/falcosecurity/falco) · [Keycloak](https://github.com/keycloak/keycloak) · [HashiCorp Vault](https://github.com/hashicorp/vault)
@@ -94,25 +106,23 @@ Curadoria dos projetos open source que uso como referência de arquitetura e aco
 | Plataforma | Backstage | Governança da engenharia |
 | Observabilidade | OpenTelemetry | Padrão de telemetria |
 | GitOps | Argo CD | Entrega contínua e automação |
-| Dados | Apache Kafka | Arquiteturas orientadas a eventos |
-| Segurança | Keycloak | IAM corporativo |
-| Infraestrutura | Kubernetes | Base da plataforma cloud |
-| Workflow | Temporal | Orquestração resiliente de processos |
+| Dados | Apache Kafka | Backbone de eventos em tempo real |
+| Segurança | Keycloak | Identidade e acesso |
+| Infra | Kubernetes | Orquestração de contêineres |
+| Arquitetura | Temporal | Workflows duráveis e resilientes |
 
 ---
 
 ## Mídia & Referências
 
-Artigos, entrevistas e participações sobre IA aplicada, tecnologia e liderança em saúde digital.
-
-- 📰 **[O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/)** — artigo autoral na *Medicina S/A* sobre agent washing, governança e IA que realmente age na operação (2026).
-- 📰 **[Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/)** — matéria na *Medicina S/A* (Edição 34) sobre agentes de IA e prontuário eletrônico.
-- ✍️ **[O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/)** — artigo autoral na *Saúde Digital News* sobre dívida de contexto, interoperabilidade e governança de dados (2026).
-- 🎙️ **[Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U)** — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
+- 📰 [O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/) — artigo autoral na **Medicina S/A** sobre agent washing, governança e IA que realmente age na operação (2026).
+- 📰 [Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/) — matéria na **Medicina S/A** (Edição 34) sobre agentes de IA e prontuário eletrônico.
+- ✍️ [O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/) — artigo autoral na **Saúde Digital News** sobre dívida de contexto, interoperabilidade e governança de dados (2026).
+- 🎙️ [Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U) — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bruno1186&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bruno1186&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=bruno1186&show_icons=true&theme=tokyonight&hide_border=true" alt="Estatísticas GitHub" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bruno1186&layout=compact&theme=tokyonight&hide_border=true" alt="Linguagens mais usadas" height="150"/>
 </p>
