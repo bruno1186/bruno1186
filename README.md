@@ -103,12 +103,12 @@ Curadoria dos projetos open source que uso como referência de arquitetura e aco
 
 ## Mídia & Referências
 
-> Espaço reservado para aparições na imprensa, palestras, podcasts e artigos. Substitua os itens abaixo pelos links reais.
+Artigos, entrevistas e participações sobre IA aplicada, tecnologia e liderança em saúde digital.
 
-- 📰 _[Título da matéria / veículo](#)_ — descrição em uma linha.
-- 🎙️ _[Palestra / podcast](#)_ — evento e ano.
-- ✍️ _[Artigo técnico / publicação](#)_ — onde foi publicado.
-- 🏆 _[Reconhecimento / premiação](#)_ — instituição e ano.
+- 📰 **[O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/)** — artigo autoral na *Medicina S/A* sobre agent washing, governança e IA que realmente age na operação (2026).
+- 📰 **[Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/)** — matéria na *Medicina S/A* (Edição 34) sobre agentes de IA e prontuário eletrônico.
+- ✍️ **[O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/)** — artigo autoral na *Saúde Digital News* sobre dívida de contexto, interoperabilidade e governança de dados (2026).
+- 🎙️ **[Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U)** — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
 
 ---
 
