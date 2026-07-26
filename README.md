@@ -82,21 +82,21 @@ Curadoria de repositórios de referência que uso para formar critério técnico
 
 | Tema | Repositório | Por que importa |
 |---|---|---|
-| Arquitetura & System Design | system-design-primer | Referência clássica para design de sistemas em escala |
-| Arquitetura & System Design | awesome-software-architecture | Curadoria de padrões (DDD, clean architecture, event-driven) |
-| Arquitetura & System Design | awesome-scalability | Estudos de caso reais de sistemas de grande escala |
-| Formação técnica | developer-roadmap | Trilhas de aprendizado para times de engenharia |
-| IA & LLMs | langchain | Framework de referência para agentes e apps com LLM |
-| IA & LLMs | transformers | Base de modelos de ML para texto, visão e áudio |
-| IA & LLMs | generative-ai-for-beginners | Formação estruturada em IA generativa para times |
-| Automação & Integração | n8n | Plataforma de automação de workflows e agentes de IA |
-| Cloud & Multi-cloud | terraform-provider-aws | Referência de IaC para AWS em escala |
-| Cloud & Multi-cloud | azure-sdk-for-net | SDKs e boas práticas oficiais para integração com Azure |
-| Dados & Analytics Engineering | dbt-core | Padrão de mercado para transformação de dados como código |
-| Dados & Analytics Engineering | airflow | Orquestração de pipelines de dados |
-| DevSecOps | CheatSheetSeries | Referência de boas práticas de segurança de aplicações |
-| Liderança & CTO | awesome-cto | Curadoria de recursos para CTOs e VPs de Engenharia |
-| Gestão de pessoas & carreira | engineeringladders | Framework de trilhas de carreira em engenharia |
+| Arquitetura & System Design | [system-design-primer](https://github.com/donnemartin/system-design-primer) | Referência clássica para design de sistemas em escala |
+| Arquitetura & System Design | [awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture) | Curadoria de padrões (DDD, clean architecture, event-driven) |
+| Arquitetura & System Design | [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | Estudos de caso reais de sistemas de grande escala |
+| Formação técnica | [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | Trilhas de aprendizado para times de engenharia |
+| IA & LLMs | [langchain](https://github.com/langchain-ai/langchain) | Framework de referência para agentes e apps com LLM |
+| IA & LLMs | [transformers](https://github.com/huggingface/transformers) | Base de modelos de ML para texto, visão e áudio |
+| IA & LLMs | [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | Formação estruturada em IA generativa para times |
+| Automação & Integração | [n8n](https://github.com/n8n-io/n8n) | Plataforma de automação de workflows e agentes de IA |
+| Cloud & Multi-cloud | [terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws) | Referência de IaC para AWS em escala |
+| Cloud & Multi-cloud | [azure-sdk-for-net](https://github.com/Azure/azure-sdk-for-net) | SDKs e boas práticas oficiais para integração com Azure |
+| Dados & Analytics Engineering | [dbt-core](https://github.com/dbt-labs/dbt-core) | Padrão de mercado para transformação de dados como código |
+| Dados & Analytics Engineering | [airflow](https://github.com/apache/airflow) | Orquestração de pipelines de dados |
+| DevSecOps | [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) | Referência de boas práticas de segurança de aplicações |
+| Liderança & CTO | [awesome-cto](https://github.com/kuchin/awesome-cto) | Curadoria de recursos para CTOs e VPs de Engenharia |
+| Gestão de pessoas & carreira | [engineeringladders](https://github.com/jorgef/engineeringladders) | Framework de trilhas de carreira em engenharia |
 
 ## Must Follow 2026
 
@@ -118,7 +118,7 @@ Curadoria de repositórios de referência que uso para formar critério técnico
 
 ## Mídia & Referências
 
-- 📰 O ano em que a inteligência artificial terá de provar que age — artigo autoral na Medicina S/A sobre agent washing, governança e IA que realmente age na operação (2026).
-- 📰 Do registro à ação: o novo papel do prontuário eletrônico na era agêntica — matéria na Medicina S/A (Edição 34) sobre agentes de IA e prontuário eletrônico.
-- ✉️ O custo invisível da IA na saúde começa antes da tecnologia — artigo autoral na Saúde Digital News sobre dívida de contexto, interoperabilidade e governança de dados (2026).
-- 🎤️ Podcast Saúde Business — EP 9 | Hospitalar 2026 — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
+- 📰 [O ano em que a inteligência artificial terá de provar que age](https://medicinasa.com.br/ia-provar-age/) — artigo autoral na Medicina S/A sobre agent washing, governança e IA que realmente age na operação (2026).
+- 📰 [Do registro à ação: o novo papel do prontuário eletrônico na era agêntica](https://medicinasa.com.br/salux-edicao34/) — matéria na Medicina S/A (Edição 34) sobre agentes de IA e prontuário eletrônico.
+- ✉️ [O custo invisível da IA na saúde começa antes da tecnologia](https://saudedigitalnews.com.br/24/06/2026/o-custo-invisivel-da-ia-na-saude-comeca-antes-da-tecnologia/) — artigo autoral na Saúde Digital News sobre dívida de contexto, interoperabilidade e governança de dados (2026).
+- 🎤️ [Podcast Saúde Business — EP 9 | Hospitalar 2026](https://www.youtube.com/watch?v=oWTKVAjts2U) — participação no podcast do Portal Saúde Business, gravado na 31ª edição da Hospitalar.
