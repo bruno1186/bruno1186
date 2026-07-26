@@ -7,6 +7,16 @@ Lidero times de engenharia e tecnologia da estratégia à execução — arquite
 
 ![Followers](https://img.shields.io/github/followers/bruno1186?label=Followers&style=flat-square) ![Perfil](https://img.shields.io/badge/GitHub-bruno1186-181717?style=flat-square&logo=github&logoColor=white)
 
+## Indice
+
+- [Sobre](#sobre)
+- [Stack principal](#stack-principal)
+- [Projetos em destaque](#projetos-em-destaque)
+- [Radar de tecnologia](#radar-de-tecnologia--stack-de-refer%C3%AAncia-de-um-vp-de-tecnologia--ia)
+- [Referencias para times de alta performance](#refer%C3%AAncias-para-times-de-alta-performance)
+- [Must Follow 2026](#must-follow-2026)
+- [Midia e Referencias](#m%C3%ADdia--refer%C3%AAncias)
+
 ## Sobre
 
 Executivo de tecnologia (C-Level) com atuação de ponta a ponta: definição de estratégia técnica, arquitetura de plataformas escaláveis, formação e liderança de times de alta performance, e entrega de produtos digitais que geram valor mensurável de negócio. Transito com fluência entre a mesa de decisão (roadmap, budget, risco, parcerias) e o código (arquitetura de referência, revisão técnica, prova de conceito).
