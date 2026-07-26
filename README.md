@@ -3,6 +3,9 @@
 ### CTO · VP de Tecnologia & Inovação · Head of IT & Digital
 
 Lidero times de engenharia e tecnologia da estratégia à execução — arquitetura de sistemas, escalabilidade, IA aplicada e cultura de engenharia orientada a resultado de negócio.
+![Visitor Count](https://komarev.com/ghpvc/?username=bruno1186&style=flat-square&color=0e75b6) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+![Followers](https://img.shields.io/github/followers/bruno1186?label=Followers&style=flat-square) ![Perfil](https://img.shields.io/badge/GitHub-bruno1186-181717?style=flat-square&logo=github&logoColor=white)
 
 ## Sobre
 
