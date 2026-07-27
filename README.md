@@ -10,6 +10,7 @@ Lidero times de engenharia e tecnologia da estratégia à execução — arquite
 ## Indice
 
 - [Sobre](#sobre)
+- [Projeto em destaque](#projeto-em-destaque)
 - [Stack principal](#stack-principal)
 - [Projetos em destaque](#projetos-em-destaque)
 - [Radar de tecnologia](#radar-de-tecnologia--stack-de-refer%C3%AAncia-de-um-vp-de-tecnologia--ia)
@@ -26,6 +27,10 @@ Executivo de tecnologia (C-Level) com atuação de ponta a ponta: definição de
 - **Cloud & Multi-cloud:** AWS, Azure, GCP e OCI — arquitetura, IaC e migração entre provedores.
 - **IA aplicada:** RAG, agentes, MCP, RPA inteligente, IA corporativa self-hosted e governança de modelos.
 - **DevSecOps & Plataforma:** GitOps, IaC, políticas como código e segurança no ciclo de vida.
+
+## Projeto em destaque
+
+**[Carreira_Tech](https://github.com/bruno1186/Carreira_Tech)** — repositório que uso como referência viva para orientar squads e mentorados: uma trilha estruturada de carreira em tecnologia e engenharia de dados, construída a partir da minha experiência liderando times de alta performance.
 
 ## Stack principal
 
