@@ -28,6 +28,8 @@ Executivo de tecnologia (C-Level) com atuação de ponta a ponta: definição de
 - **IA aplicada:** RAG, agentes, MCP, RPA inteligente, IA corporativa self-hosted e governança de modelos.
 - **DevSecOps & Plataforma:** GitOps, IaC, políticas como código e segurança no ciclo de vida.
 
+Os repositórios públicos deste perfil foram organizados e publicados a partir de 2026 como uma iniciativa pessoal de compartilhar referências práticas de arquitetura e engenharia com a comunidade técnica, com base em padrões e decisões consolidados ao longo da minha atuação profissional.
+
 ## Projeto em destaque
 
 **[Carreira_Tech](https://github.com/bruno1186/Carreira_Tech)** — repositório que uso como referência viva para orientar squads e mentorados: uma trilha estruturada de carreira em tecnologia e engenharia de dados, construída a partir da minha experiência liderando times de alta performance.
